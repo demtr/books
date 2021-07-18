@@ -34,6 +34,8 @@ Ext.onReady(function () {
             type: 'memory',
         },
         data: bookArr,
+        remoteSort: true,
+        remoteFilter: true
     });
 
     var locStorage = localStorage.getItem('book-shelf');
